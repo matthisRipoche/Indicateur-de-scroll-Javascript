@@ -1,0 +1,55 @@
+:root {
+  --color-white: #f1f1f1;
+  --color-gray-100: #a3a1a3;
+  --color-green: #20da96;
+
+  --font-family: "Nunito", sans-serif;
+
+  --font-lg: 22px;
+  --font-xl: 40px;
+
+  --font-bold: 700;
+
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-xxl: 40px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0 100px;
+  font-family: var(--font-family);
+}
+h1 {
+  font-weight: var(--font-bold);
+  text-align: center;
+  padding: var(--space-xl) 0;
+  font-size: var(--font-xl);
+  padding-top: 120px !important;
+}
+h2 {
+  margin-left: var(--space-xxl);
+}
+p {
+  font-size: var(--font-lg);
+}
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: var(--color-white);
+}
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: var(--color-gray-100);
+}
+.progress-bar {
+  height: 8px;
+  background: var(--color-green);
+  width: 0%;
+}
