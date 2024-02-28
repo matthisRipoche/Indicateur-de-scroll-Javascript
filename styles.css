@@ -51,5 +51,5 @@ p {
 .progress-bar {
   height: 8px;
   background: var(--color-green);
-  width: 0%;
+  width: 50%;
 }
